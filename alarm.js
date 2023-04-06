@@ -1,5 +1,5 @@
 let currentTime = '';
-const sound = new Audio('sound.mp3');
+const sound = new Audio('classic.mp3');
 sound.loop = true;
 
 const formatDay = (index) => {
