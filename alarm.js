@@ -18,7 +18,7 @@ const displayDateTime = () => {
   const month = formatNumber(current.getMonth() + 1);
   const year = current.getFullYear();
   const displayedDate = document.getElementById("date");
-  displayedDate.innerText = `${day}, ${month}/${date}/${year}`;
+  displayedDate.innerText = `${day}, ${date}/${month}/${year}`;
 
   const h = formatNumber(current.getHours());
   const m = formatNumber(current.getMinutes());
